@@ -1,133 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact - TheWolf-CyberTech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | TheWolf-CyberTech</title>
 
-<style>
-body{
-    font-family:Arial,sans-serif;
-    margin:0;
-    background:#f4f4f4;
-}
-
-header{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-nav{
-    background:#222;
-    text-align:center;
-    padding:10px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-}
-
-.hero{
-    background:#0d6efd;
-    color:white;
-    text-align:center;
-    padding:40px;
-}
-
-.container{
-    max-width:700px;
-    margin:30px auto;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
-}
-
-input, textarea{
-    width:100%;
-    padding:12px;
-    margin-top:10px;
-    margin-bottom:15px;
-    border:1px solid #ccc;
-    border-radius:5px;
-    box-sizing:border-box;
-}
-
-button{
-    background:#0d6efd;
-    color:white;
-    border:none;
-    padding:12px 20px;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#084298;
-}
-
-.info{
-    margin-top:25px;
-    line-height:1.8;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:30px;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>🐺 TheWolf-CyberTech</h1>
-    <p>Your Gaming & Tech Store</p>
-</header>
+<!-- =========================
+        HEADER
+========================= -->
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="product.html">Products</a>
-    <a href="testing.html">Contact</a>
-</nav>
+<header class="header">
 
-<section class="hero">
-    <h2>Contact Us</h2>
-    <p>Questions about laptops, gaming gear, or custom PC builds?</p>
-</section>
-
-<div class="container">
-
-    <h2>Send us a Message</h2>
-
-    <form>
-        <input type="text" placeholder="Your Name" required>
-
-        <input type="email" placeholder="Your Email" required>
-
-        <textarea rows="6" placeholder="Your Message" required></textarea>
-
-        <button type="submit">Send Message</button>
-    </form>
-
-    <div class="info">
-        <h3>Store Information</h3>
-        <p>📧 Email: support@thewolf-cybertech.com</p>
-        <p>💻 Gaming Laptops & PC Hardware</p>
-        <p>🎧 Headsets, Keyboards & Accessories</p>
-        <p>🪑 Gaming Chairs & Setup Equipment</p>
+    <div class="logo">
+        🐺 <span>TheWolf-CyberTech</span>
     </div>
 
-</div>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="product.html#rog-special-edition">Special Edition</a>
+        <a href="testing.html">Contact</a>
+    </nav>
+
+</header>
+
+<!-- =========================
+        HERO
+========================= -->
+
+<section class="product-hero">
+
+    <div class="hero-text">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Have questions about gaming laptops, PC components,
+            custom builds or accessories?
+            We'd love to hear from you.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CONTACT
+========================= -->
+
+<section>
+
+    <h2>Send Us a Message</h2>
+
+    <div class="build-card">
+
+        <form>
+
+            <input type="text"
+                   placeholder="Your Name"
+                   required>
+
+            <br><br>
+
+            <input type="email"
+                   placeholder="Your Email"
+                   required>
+
+            <br><br>
+
+            <input type="text"
+                   placeholder="Subject"
+                   required>
+
+            <br><br>
+
+            <textarea
+                rows="8"
+                placeholder="Write your message..."
+                required></textarea>
+
+            <br><br>
+
+            <button class="buy-btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        STORE INFO
+========================= -->
+
+<section>
+
+    <h2>Store Information</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+
+            <h3>📧 Email</h3>
+
+            <p>support@thewolf-cybertech.com</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📞 Phone</h3>
+
+            <p>+1 (555) 123-4567</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🕒 Business Hours</h3>
+
+            <p>Monday - Friday</p>
+
+            <p>9:00 AM - 6:00 PM</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>💻 Services</h3>
+
+            <p>Gaming PCs</p>
+
+            <p>Gaming Laptops</p>
+
+            <p>PC Components</p>
+
+            <p>Accessories</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        WHY SHOP WITH US
+========================= -->
+
+<section>
+
+    <h2>Why Choose TheWolf-CyberTech?</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+
+            <h3>🚚 Fast Shipping</h3>
+
+            <p>Secure and reliable delivery for all gaming hardware.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🛡 Warranty</h3>
+
+            <p>Manufacturer warranty on all supported products.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🎮 Expert Support</h3>
+
+            <p>Need help choosing parts? Our team is ready to assist.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        FOOTER
+========================= -->
 
 <footer>
-    © 2026 TheWolf-CyberTech | All Rights Reserved
+
+    <div class="footer-content">
+
+        <h2>🐺 TheWolf-CyberTech</h2>
+
+        <p>
+            Premium Gaming Hardware • Custom PC Builds • Accessories
+        </p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="product.html">Products</a>
+
+            <a href="testing.html">Contact</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 TheWolf-CyberTech. All Rights Reserved.
+        </p>
+
+    </div>
+
 </footer>
 
 </body>
